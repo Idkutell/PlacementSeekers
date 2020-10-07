@@ -1,0 +1,45 @@
+
+/* 
+    Created on : Oct 7, 2020, 11:46:08 AM
+    Author     : Manish Kushwaha
+*/
+
+/* To give margin above links */
+.menu-bar
+{
+    margin-top: 20px;
+}
+/* To give space between icon and link */
+.menu-bar .glyphicon
+{
+    margin-right: 5px;
+}
+.sub-menu1
+{
+    display: none;
+}
+.active, .menu-bar ul li:hover
+{
+    
+}
+.menu-bar ul li:hover .sub-menu1
+{
+    display: block ;
+    position: absolute;
+}
+.menu-bar ul li:hover .sub-menu1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    text-align: left;
+}
+.sub-menu2
+{
+    display: none;
+}
+.sub-menu1 ul li:hover .sub-menu2
+{
+    display: inline-block;
+    position: absolute;
+}
+
